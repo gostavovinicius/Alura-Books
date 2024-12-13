@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,22 @@
     <link rel="stylesheet" href="styles/reset.css">
     <title>AluraBooks</title>
 </head>
+
 <body>
     <header class="cabecalho">
         <div class="container">
-            <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            <input type="checkbox" value="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item"><a class="lista-menu__link" href="#">PROGRAMAÇÃO</a></li>
+                <li class="lista-menu__item"><a class="lista-menu__link" href="#">FRONT-END</a></li>
+                <li class="lista-menu__item"><a class="lista-menu__link" href="#">INFRAESTRUTURA</a></li>
+                <li class="lista-menu__item"><a class="lista-menu__link" href="#">BUSINESS</a></li>
+                <li class="lista-menu__item"><a class="lista-menu__link" href="#">DESIGN & UX</a></li>
+            </ul>
             <img src="assets/Logo.svg" alt="Logo da AluraBooks">
         </div>
         <div class="container">
@@ -21,4 +34,5 @@
 
     </header>
 </body>
+
 </html>
