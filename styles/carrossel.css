@@ -12,7 +12,8 @@
     width: 100%;
 }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
     display: none;
 }
 
@@ -51,6 +52,7 @@
 .descricao__titulo {
     color: var(--laranja);
     font-weight: 700;
+    margin-top: 1em 0;
 }
 
 .descricao__titulo-livro {
